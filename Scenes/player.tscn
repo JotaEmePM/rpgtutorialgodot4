@@ -601,3 +601,5 @@ sprite_frames = SubResource("SpriteFrames_40k4u")
 animation = &"attack_side"
 frame = 5
 frame_progress = 1.0
+
+[connection signal="animation_finished" from="AnimatedSprite2D" to="." method="_on_animated_sprite_2d_animation_finished"]
